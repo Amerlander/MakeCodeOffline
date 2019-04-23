@@ -1,5 +1,5 @@
 # WINDOWS
-- 'Calliope MakeCode.exe" per Doppelklick öffnen, um MakeCode zu starten
+- 'Calliope MakeCode Windows.exe" per Doppelklick öffnen, um MakeCode zu starten
 
 
 # LINUX
@@ -9,3 +9,6 @@
 
 
 # OSX
+- 'Start_macOS.sh' ausführbar machen
+- 'pxt/inc/node-macos' ausführbar machen
+- 'Start_macOS.sh' ausführen, um MakeCode zu starten
