@@ -21,9 +21,9 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName="{userappdata}\Calliope\{#MyAppName}"
 DisableProgramGroupPage=yes
-OutputDir="D:\USER\Desktop\Calliope Setup"
+OutputDir="Calliope Setup"
 OutputBaseFilename="Calliope MakeCode Setup"
-SetupIconFile="D:\USER\Downloads\pxt-portable_WIN\pxt-portable\pxt\Icon1024.ico"
+SetupIconFile="assets\Icon1024.ico"
 Compression=lzma
 SolidCompression=yes
 PrivilegesRequired=lowest
@@ -62,8 +62,8 @@ Name: "ukrainian"; MessagesFile: "compiler:Languages\Ukrainian.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "D:\USER\Downloads\MakeCode Portable v5 - Kopie\Calliope MakeCode.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\USER\Downloads\MakeCode Portable v5 - Kopie\pxt\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Excludes: "*\node-linux,*\node-macos"
+Source: "portable\Calliope MakeCode.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "portable\pxt\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Excludes: "*\node-linux,*\node-macos"
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
